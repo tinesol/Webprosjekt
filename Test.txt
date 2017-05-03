@@ -1,3 +1,5 @@
 Halla
 
 Bare sjekker at ting funker
+
+Funker dette?
