@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    position: relative;
+	height: 100%;
+}
+
+/* Endre stil på toppmeny */
+.topnav {
+    background-color: #333;
+    height: 52px;
+    overflow: hidden;
+}
+
+/* Endre stil på linkene inni toppmeny */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: arial;
+}
+
+/* Endre stil på hover link i toppmeny*/
+.topnav a:hover {
+    background-color: #ddd;
+    border-bottom: #000 3px solid;
+    color: #000;
+}
+
+/* Endre stil på active/current link i toppmeny */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Endre stil på søkeboks */
+.searchbox {
+    height: 160px;
+    text-align: center;
+}
+
+/* Endre stil på søkefelt */
+ .search {
+    margin-top: 60px;
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    background-image: url('COLOURBOX15287877.jpg');
+    background-size: 20px 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+/* Endre stil på kategoriboks */
+.categoriesbox {
+    margin: auto;
+    height: 140px;
+    width: 600px;
+    text-align: center;
+}
+
+/* Endre stil på ikoner */
+.icon {
+    float: right;
+    padding: 10px;
+}
+
+/* Endre stil på ikon tekst */
+.icon span {
+    display:block;
+}
+
+/* Endre stil på ikon bilde */
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Endre stil på eventboks */
+.eventbox {
+    margin: auto;
+    display: flex;
+  	align-items:flex-start;
+}
+
+footer {
+    background-color: #F2F2F4;
+    padding: 50px;
+    text-align: center;
+}
