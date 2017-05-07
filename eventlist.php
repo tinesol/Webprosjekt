@@ -1,3 +1,6 @@
+<?php
+require 'dbconnect.php';
+?>
 <!DOCTYPE html>
 <html>
 <title>HTML Tutorial</title>
@@ -5,16 +8,12 @@
 <?php
 error_reporting( E_ALL ); 
 
-$dbservername = "localhost";
-$dbusername = "root";
-$dbpassword = "Teacheronizuka1";
 
-try {
-    $conn = new PDO("mysql:host=$dbservername;dbname=arrangement_db", $dbusername, $dbpassword);
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	$stmt = $conn->prepare("SELECT event_date, event_time, location_ID, age_limit, price, organizer_ID, description FROM arrangement ORDER BY event_date asc, event_time asc");
-    $stmt->execute();
+
+
+	$stmt = "SELECT event_date, event_time, location_ID, age_limit, price, organizer_ID, description 
+			FROM `Event` ORDER BY event_date asc, event_time asc";
+    $result = $conn->query($stmt);
     
 	echo <<<'EOD'
 	<table>
@@ -29,7 +28,7 @@ try {
 		</tr>
 EOD;
 
-	while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+	foreach ($result as $row) {
 		echo '<tr>';
 		foreach($row as $k=>$v) { 
 			echo "<td>$v</td>";
@@ -37,10 +36,7 @@ EOD;
 		echo '</tr>';		
 	}
 	echo '</table>';
-} catch(PDOException $e) {
-    echo "Error: " . $e->getMessage();
-}
-$conn = null;
+
 ?>
 </body>
 </html>
