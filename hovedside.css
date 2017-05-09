@@ -1,14 +1,15 @@
 body {
     margin: 0px;
-    position: relative;
-	height: 100%;
 }
 
 /* Endre stil på toppmeny */
 .topnav {
+    position: fixed;
+    top: 0px;
     background-color: #333;
-    height: 52px;
+    width: 100%;
     overflow: hidden;
+    z-index: 1;
 }
 
 /* Endre stil på linkene inni toppmeny */
@@ -19,14 +20,13 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
-    font-family: arial;
+    font-size: 24px;
+    font-family: Arial;
 }
 
 /* Endre stil på hover link i toppmeny*/
 .topnav a:hover {
     background-color: #ddd;
-    border-bottom: #000 3px solid;
     color: #000;
 }
 
@@ -38,13 +38,15 @@ body {
 
 /* Endre stil på søkeboks */
 .searchbox {
-    height: 160px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 /* Endre stil på søkefelt */
  .search {
-    margin-top: 60px;
     width: 300px;
     height: 40px;
     background-color: #fff;
@@ -57,15 +59,18 @@ body {
 
 /* Endre stil på kategoriboks */
 .categoriesbox {
+    overflow: hidden;
+    position: relative;
     margin: auto;
-    height: 140px;
+    margin-bottom: 50px;
     width: 600px;
+    height: 140px;
     text-align: center;
 }
 
 /* Endre stil på ikoner */
 .icon {
-    float: right;
+    float: left;
     padding: 10px;
 }
 
@@ -82,12 +87,57 @@ body {
 
 /* Endre stil på eventboks */
 .eventbox {
+    overflow: hidden;
+    position: relative;
     margin: auto;
-    display: flex;
-  	align-items:flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 920px;
+    height: 100%;
+    display: block;
 }
 
+/* Endre stil på eventer */
+.event {
+    overflow: hidden;
+    float: left;
+    width: 200px;
+    height: 100%;
+    padding: 5px;
+    margin: 10px;
+    background-color: #F2F2F4;
+}
+
+/* Endre stil på event bilde */
+.event img {
+    width: 190px;
+    padding: 5px;
+}
+
+/* Endre stil på event tekst */
+.event p {
+    float: left;
+    padding: 5px;
+}
+
+.event h5 {
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.event h6 {
+    font-size: 16px;
+    margin: 0px;
+    padding: 5px;
+}
+
+/* Endre stil på footer */
 footer {
+    position: relative;
+    bottom: 0px;
+    display:block;
     background-color: #F2F2F4;
     padding: 50px;
     text-align: center;

@@ -52,7 +52,54 @@
     </div>
     
     <div class="eventbox">
-        
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
+        <div class="event">
+        <img src="COLOURBOX15287877.jpg">
+        <h5>Event</h5>
+        <h6>12:00-24:00</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </div>
     </div>
     
     <?php require 'footer.php' ?>
