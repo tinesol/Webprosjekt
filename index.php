@@ -35,7 +35,7 @@ if (file_exists($file) && is_readable($file)){     // Check file
 <title>Uniform Server ZeroXIII - test page</title>
 <meta name="Description" content="The Uniform Server ZeroXIII 13.3.1" />
 <meta name="Keywords" content="The Uniform Server, MPG, Mike Gleaves, Ric, UniServer, Olajide, BobS " />
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="Stylesheets/style.css" media="screen" />
 </head>
 
 <style type="text/css">
