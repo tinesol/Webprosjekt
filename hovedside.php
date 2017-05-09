@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="hovedside.css"/>
+<link rel="stylesheet" type="text/css" href="hovedside1.css"/>
     
 <title>Westerdals</title>
 
@@ -53,52 +53,68 @@
     
     <div class="eventbox">
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
         <div class="event">
+        <a href="#event">
         <img src="COLOURBOX15287877.jpg">
         <h5>Event</h5>
         <h6>12:00-24:00</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+        </a>
         </div>
     </div>
     

@@ -2,6 +2,21 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
 /* Endre stil på toppmeny */
 .topnav {
     position: fixed;
