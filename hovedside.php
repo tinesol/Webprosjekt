@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" type="text/css" href="Stylesheets/hovedside.css"/>
-    
-<title>Westerdals</title>
-
-</head>
-<body>
-	
-    <?php require 'navigation.php' ?>
+<?php require 'header.php' ?>
     
     <div class="searchbox">
         <input type="text" name="search" class="search" placeholder="Search...">
@@ -118,7 +104,4 @@
         </div>
     </div>
     
-    <?php require 'footer.php' ?>
-    
-</body>
-</html>
+<?php require 'footer.php' ?>
