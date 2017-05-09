@@ -11,12 +11,8 @@
 
 </head>
 <body>
-	<div class="topnav">
-  		<a href="#contact">Contact</a>
- 		<a href="#about">About</a>
-        <a href="#events">Events</a>
-        <a href="#home">Home</a>
-	</div>
+	
+    <?php require 'navigation.php' ?>
     
     <div class="searchbox">
         <input type="text" name="search" class="search" placeholder="Search...">
@@ -58,6 +54,8 @@
     <div class="eventbox">
         
     </div>
+    
+    <?php require 'footer.php' ?>
     
 </body>
 </html>
