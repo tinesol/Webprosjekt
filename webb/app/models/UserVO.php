@@ -4,21 +4,10 @@ namespace Webb\App\Models;
 
 class UserVO
 {
-    protected $id;
     protected $username;
     protected $password;
     protected $email;
     protected $userType;
-
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-
-    public function getId()
-    {
-        return $this->id;
-    }
 
     public function setUsername($username)
     {
