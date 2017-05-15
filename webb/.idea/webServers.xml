@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6df5ceeb-b374-4064-bc7c-d65e18c8c7f3" name="webprosjektv17" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\MYSQL\UniServerZ\www" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

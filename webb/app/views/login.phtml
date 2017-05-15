@@ -1,0 +1,24 @@
+
+<h1>Logg inn</h1>
+<form method="post" id="form-login" action="">
+    <label for="username">Brukernavn</label>
+    <input type="text" id="username" name="username" required="required"
+           value="
+           <?php
+           if (isset($_POST['username']))
+               echo(htmlspecialchars($_POST['username']));
+           ?>" />
+    <label  for="password">Passord</label>
+
+    <input type="password" id="password" name="password" required="required"
+           value="<?php
+           if (isset($_POST['password']))
+               echo(htmlspecialchars($_POST['password']));
+           ?>" />
+
+    <a href="#" class="loginlink">Glemt passord? </a>
+    <h2>Ny bruker? </h2>
+    <a href="/registration/student" class="loginlink">For studenter </a>
+    <br/>
+    <a href="/registration/organizer" class="loginlink">For arrangører </a>
+</form>

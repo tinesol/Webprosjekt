@@ -1,0 +1,15 @@
+<p> finn eventer </p>
+<div class="searchbox">
+    <input type="text" name="search" class="search" placeholder="Søk her...">
+</div>
+<?php
+$tags = [
+    'nightlife' => 'events/tags/nightlife.php',
+    'food' => 'events/tags/food.php',
+    'kino' => 'events/tags/kino.php'
+];
+
+foreach ($tags as $key => $value) {
+    echo '<a href="' . $value . '">' . $key . '</a><br/>';
+}
+?>

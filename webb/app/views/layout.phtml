@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="/localhost" />
+        <meta charset="UTF-8" />
+        <title><?= $title ?></title>
+        <meta name="description" content="<?= $description ?>" />
+        <link rel="stylesheet" href="webb.css" type="text/css"/>
+    </head>
+
+    <body>
+        <header>
+            <h1>Webb - Westerdal's Event Bulletin Board</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="event/home">Home</a></li>
+                <li><a href="event">Events</a></li>
+                <li><a href="user">My account</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <br clear="both" />
+
+        <article>
+            <?php $this->controller->renderView(); // renders the current view into the template ?>
+        </article>
+
+        <footer>
+            <p></p>
+        </footer>
+    </body>
+</html>
