@@ -9,7 +9,7 @@
         <h3>Event</h3>
         </a>
         <h6>12:00-24:00</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus doloribus doloribus doloribus doloribus</p>
     </section>
     <section class="col-sm-4" id="event">
         <a href="#event">
