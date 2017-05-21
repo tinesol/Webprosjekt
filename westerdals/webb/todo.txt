@@ -1,0 +1,3 @@
+- merge inn gruppens kode
+- lag en side for arrangører
+- legg til sesjon handling og fjern hardkoding av ngaletl

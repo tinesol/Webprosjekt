@@ -1,0 +1,9 @@
+<h3>Snarveier til ulike type arrangementer</h3>
+<div class="searchbox">
+    <input type="text" name="search" class="search" placeholder="Søk her...">
+</div>
+<?php
+foreach ($tags as $tag) {
+    echo '<a href="">' . $tag->getName() . '</a><br/>';
+}
+?>

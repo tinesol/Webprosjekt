@@ -1,0 +1,10 @@
+<h3>Kontakt oss</h3>
+Våre medarbeidere er her for å hjelpe deg!
+<?php
+foreach ($users as $user) {
+    echo '<ul>'
+    . '<li>' . $user->getName() . '</li>'
+    . '<li>' . $user->getEmail() . '</li>'
+    . '</ul>';
+}
+?>

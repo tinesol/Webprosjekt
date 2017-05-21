@@ -1,0 +1,14 @@
+<?php
+
+foreach ($events as $event) {
+    echo '<div class="event" id="event-' . $event->getId() . '">'
+    . '<h4>' . $event->getName() . '</h4>'
+    . '<b>Dato:</b> ' . $event->getDate() . '<br />'
+    . '<b>Tid:</b> ' . $event->getTime() . '<br />'
+    . '<b>Sted:</b> ' . $event->getLocation() . '<br />'
+    . '<b>Pris:</b> ' . $event->getPrice() . '<br />'
+    . '<b>Arrangør:</b> ' . $event->getOrganizer()
+    . '<p> ' . $event->getDescription() . '</p>'
+    . '</div>';
+}
+?>
