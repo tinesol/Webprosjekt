@@ -8,7 +8,9 @@
         <img src="../images//COLOURBOX95430431.jpg">
         <h3>Event</h3>
         </a>
-        <h6>12:00-24:00</h6>
+        <h6>08.06.2017</h6>
+        <h6>kl 12:00-24:00</h6>
+        <a href="https://www.google.no/maps/place/Cafe+Sara/@59.9176068,10.7519658,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e66acf2ba6d:0x6e108cf4f57a3db7!8m2!3d59.9176068!4d10.7541491"><h6>Café Sara</h6></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus doloribus doloribus doloribus doloribus</p>
     </section>
     <section class="col-sm-4" id="event">
@@ -16,7 +18,9 @@
         <img src="../images//COLOURBOX95430431.jpg">
         <h3>Event</h3>
         </a>
-        <h6>12:00-24:00</h6>
+        <h6>08.06.2017</h6>
+        <h6>kl 12:00-24:00</h6>
+        <a href="https://www.google.no/maps/place/Cafe+Sara/@59.9176068,10.7519658,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e66acf2ba6d:0x6e108cf4f57a3db7!8m2!3d59.9176068!4d10.7541491"><h6>Café Sara</h6></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
     </section>
     <section class="col-sm-4" id="event">
@@ -24,7 +28,9 @@
         <img src="../images//COLOURBOX95430431.jpg">
         <h3>Event</h3>
         </a>
-        <h6>12:00-24:00</h6>
+        <h6>08.06.2017</h6>
+        <h6>kl 12:00-24:00</h6>
+        <a href="https://www.google.no/maps/place/Cafe+Sara/@59.9176068,10.7519658,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e66acf2ba6d:0x6e108cf4f57a3db7!8m2!3d59.9176068!4d10.7541491"><h6>Café Sara</h6></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
     </section>
     <section class="col-sm-4" id="event">
@@ -32,7 +38,9 @@
         <img src="../images//COLOURBOX95430431.jpg">
         <h3>Event</h3>
         </a>
-        <h6>12:00-24:00</h6>
+        <h6>08.06.2017</h6>
+        <h6>kl 12:00-24:00</h6>
+        <a href="https://www.google.no/maps/place/Cafe+Sara/@59.9176068,10.7519658,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e66acf2ba6d:0x6e108cf4f57a3db7!8m2!3d59.9176068!4d10.7541491"><h6>Café Sara</h6></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
     </section>
     <section class="col-sm-4" id="event">
@@ -40,7 +48,9 @@
         <img src="../images//COLOURBOX95430431.jpg">
         <h3>Event</h3>
         </a>
-        <h6>12:00-24:00</h6>
+        <h6>08.06.2017</h6>
+        <h6>kl 12:00-24:00</h6>
+        <a href="https://www.google.no/maps/place/Cafe+Sara/@59.9176068,10.7519658,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e66acf2ba6d:0x6e108cf4f57a3db7!8m2!3d59.9176068!4d10.7541491"><h6>Café Sara</h6></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
     </section>
     <section class="col-sm-4" id="event">
@@ -48,7 +58,9 @@
         <img src="../images/COLOURBOX95430431.jpg">
         <h3>Event</h3>
         </a>
-        <h6>12:00-24:00</h6>
+        <h6>08.06.2017</h6>
+        <h6>kl 12:00-24:00</h6>
+        <a href="https://www.google.no/maps/place/Cafe+Sara/@59.9176068,10.7519658,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e66acf2ba6d:0x6e108cf4f57a3db7!8m2!3d59.9176068!4d10.7541491"><h6>Café Sara</h6></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
     </section>     
     </div>
