@@ -1,0 +1,37 @@
+<?php require "header.php"?>
+
+    <div class="content container">
+        
+        <div class="row" id="events">
+            <section class="col-sm-4 col-sm-push-4" id="event">
+                <h2>Ny bruker</h2>
+                <br>
+                    <form method="post" id="form-login" action="">
+                        <label style="display:block;" for="name"><h5>Navn</h5></label>
+                        
+                        <input type="text" id="name" name="name" required="required"
+                               value="" />
+                        
+                        <label style="display:block;" for="username"><h5>Brukernavn</h5></label>
+                        
+                        <input type="text" id="username" name="username" required="required"
+                               value="" />
+                        
+                        <label style="display:block;" for="password"><h5>Passord</h5></label>
+
+                        <input type="password" id="password" name="password" required="required"
+                               value="" />
+                        
+                        <div>
+                            <a href="bruker">
+                            <br>
+                                <button class="btn btn-success">Lag bruker</button>
+                            </a>
+                        </div>
+                    </form>
+            </section>
+        </div>
+    
+    </div>
+
+<?php require "footer.php"?>

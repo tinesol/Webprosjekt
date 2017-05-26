@@ -1,0 +1,45 @@
+<?php require "header.php"?>
+
+    <div class="content container">
+        
+        <div class="row" id="events">
+            <section class="col-sm-4 col-sm-push-4" id="event">
+                <h2>Arrangør-navn</h2>
+                <br>
+                    <form method="post" id="form-login" action="">
+                        <label style="display:block;" for="event-name"><h5>Event-navn</h5></label>
+                        
+                        <input type="text" id="event-name" name="event-name" placeholder="Event"  required="required"
+                               value="" />
+                        
+                        <label style="display:block;" for="date"><h5>Dato</h5></label>
+                        
+                        <input type="text" id="date" name="date" placeholder="dd.mm.åå" required="required"
+                               value="" />
+                        
+                        <label style="display:block;" for="price"><h5>Pris</h5></label>
+
+                        <input type="text" id="price" name="price" placeholder="kr" required="required"
+                               value="" />
+                        
+                        <label style="display:block;" for="agelimit"><h5>Aldersgrense</h5></label>
+
+                        <input type="text" id="agelimit" name="agelimit" placeholder="år" required="required"
+                               value="" />
+                        
+                        <label style="display:block;" for="photo"><h5>Bilde-url</h5></label>
+
+                        <input type="text" id="photo" name="photo" placeholder="url" required="required"
+                               value="" />
+                        
+                        <div>
+                            <br>
+                            <button class="btn btn-success">Lag event</button>
+                        </div>
+                    </form>
+            </section>
+        </div>
+    
+    </div>
+
+<?php require "footer.php"?>

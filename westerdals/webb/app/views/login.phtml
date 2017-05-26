@@ -1,23 +1,43 @@
-<h2>Logg inn</h2>
-<form method="post" id="form-login" action="">
-    <label for="username">Brukernavn</label>
-    <input type="text" id="username" name="username" required="required"
-           value="
-           <?php
-           if (isset($_POST['username']))
-               echo(htmlspecialchars($_POST['username']));
-           ?>" />
-    <label  for="password">Passord</label>
+<?php require "header.php"?>
 
-    <input type="password" id="password" name="password" required="required"
-           value="<?php
-           if (isset($_POST['password']))
-               echo(htmlspecialchars($_POST['password']));
-           ?>" />
+    <div class="content container">
+        
+    <div class="row" id="events">
+    <section class="col-sm-4 col-sm-push-4" id="event">
+        <h2>Logg inn</h2>
+        <br>
+        <form method="post" id="form-login" action="">
+            <label style="display:block;" for="username"><h5>Brukernavn</h5></label>
+            <input type="text" id="username" name="username" required="required"
+                   value="
+                   <?php
+                   if (isset($_POST['username']))
+                       echo(htmlspecialchars($_POST['username']));
+                   ?>" />
+            <label style="display:block;" for="password"><h5>Passord</h5></label>
 
-    <a href="#" class="loginlink">Glemt passord? </a>
-    <h2>Ny bruker? </h2>
-    <a href="#" class="loginlink">For studenter </a>
-    <br/>
-    <a href="#" class="loginlink">For arrangører </a>
-</form>
+            <input type="password" id="password" name="password" required="required"
+                   value="<?php
+                   if (isset($_POST['password']))
+                       echo(htmlspecialchars($_POST['password']));
+                   ?>" />
+
+            <div>
+                <a href="bruker">
+                <br>
+                    <button class="btn btn-success">Logg inn</button>
+                </a>
+            </div>
+
+            <a href="#" style="display:block;"><h5>Glemt passord?</h5></a>
+            <br>
+            <h3>Ny bruker?</h3>
+            <a href="registration/student"><h5>For privatperson</h5></a>
+            <a href="registration/organizer"><h5>For arrangører</h5></a>
+        </form>
+    </section>
+    </div>
+    
+    </div>
+
+<?php require "footer.php"?>

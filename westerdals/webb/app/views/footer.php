@@ -1,8 +1,9 @@
    <div class="footer">
-        <p>Contact us.</p>
-        <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
-        <br><br>
-        <p>(c) Copyright 2017</p>
+       <p><a href="contact.phtml">Kontakt Oss</a>  /  <a href="about.php">Om Oss</a></p>
+       <br>
+       <p>Kontakt informasjon: Tlf: <a href="tel:22057550">22 05 75 50</a>        Epost: <a href="mailto:someone@example.com">post@westerdals.no</a>.</p>
+       <br><br>
+       <p>© Copyright Westerdals 2017</p>
     </div>
 
     <script src="../../public/js/jquery-2.1.4.min.js"></script>

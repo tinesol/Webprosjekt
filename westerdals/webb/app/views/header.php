@@ -22,12 +22,11 @@
     </div>
     <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Newest</a></li>
-        <li><a href="#">Most Popular</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Sign in</a></li>
+        <li><a href="#">Hjem</a></li>
+        <li><a href="#">Arrangementer</a></li>
+        <li><a href="#">Min Bruker</a></li>
+        <li><a href="#">Om Oss</a></li>
+        <li><a href="#">Kontakt Oss</a></li>
         </ul>        
     </div>
     </div>
