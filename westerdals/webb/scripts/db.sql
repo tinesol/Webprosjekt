@@ -1,4 +1,4 @@
-﻿--
+--
 -- This script creates a database and populates the tables
 -- with data.
 
@@ -23,12 +23,13 @@
 --
 
 CREATE TABLE `location` (
-    `id` int AUTO_INCREMENT NOT NULL,
-    `address` varchar(50) NOT NULL,
-    `zipcode` varchar(4) NOT NULL,
-    `city` varchar(50) NOT NULL,
-    PRIMARY KEY (`id`)
-);
+  `id` int(11) NOT NULL,
+  `address` varchar(50) NOT NULL,
+  `location_path` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `zipcode` varchar(4) NOT NULL,
+  `city` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 
 --
 -- Create table `organizer`
@@ -129,20 +130,21 @@ CREATE TABLE `event_registration` (
 -- Loading data into table `location`
 --
 
-INSERT INTO `location` (`id`, `address`, `zipcode`, `city`) VALUES
-(1, 'Akershus Festning', '0150', 'Oslo'),
-(2, 'Vulkan 20', '0178', 'Oslo'),
-(3, 'Karl Johans gate 31', '0101', 'Oslo'),
-(4, 'Middelthuns gate 28', '0368', 'Oslo'),
-(5, 'Oslo Rådhus', '0037', 'Oslo'),
-(6, 'Kjelsåsveien 143', '0491', 'Oslo'),
-(7, 'Vulkan 5', '0182', 'Oslo'),
-(8, 'Hans Nilsen Hauges gate 44 ', '0481', 'Oslo'),
-(9, 'Christian Krohgs gate 32', '0186', 'Oslo'),
-(10, 'Maridalsveien 17', '0175', 'Oslo'),
-(11, 'Arne Garborgs plass 4', '0179', 'Oslo'),
-(12, 'Tollbugata 13', '0152', 'Oslo'),
-(13, 'Kirsten Flagstads pl. 1', '0150', 'Oslo');
+INSERT INTO `location` (`id`, `address`, `location_path`, `zipcode`, `city`) VALUES
+(1, 'Akershus Festning', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.4796902651954!2d10.734895316249968!3d59.90758598186492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e866d647ed3%3A0xaa290cda332eedba!2sAkershus+Fortress!5e0!3m2!1sen!2sno!4v1495920993729\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0150', 'Oslo'),
+(2, 'Vulkan 20', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.6198749805346!2d10.749457716250479!3d59.921855781870114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e65bc6baa6f%3A0x62ac8d78c0e6cdc9!2sVulkan+20%2C+0175+Oslo!5e0!3m2!1sen!2sno!4v1495921113700\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0178', 'Oslo'),
+(3, 'Karl Johans gate 31', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.083281291472!2d10.737689016250208!3d59.914165181867276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7d6eedb8b9%3A0xdd03aa63c95c9891!2sKarl+Johans+gate+31%2C+0159+Oslo!5e0!3m2!1sen!2sno!4v1495921059919\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0101', 'Oslo'),
+(4, 'Middelthuns gate 28', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.2451213698325!2d10.705904116250718!3d59.92807468187232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dc569a07975%3A0xcf0bf7f0dae15689!2sMiddelthuns+gate+28%2C+0368+Oslo!5e0!3m2!1sen!2sno!4v1495921141588\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0368', 'Oslo'),
+(5, 'Oslo Rådhus', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.2047819507175!2d10.731536516250124!3d59.9121486818666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e87392ca3a5%3A0x52f65653724888bc!2zUsOlZGh1c2V0!5e0!3m2!1sen!2sno!4v1495921168912\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0037', 'Oslo'),
+(6, 'Kjelsåsveien 143', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.9353255600447!2d10.780527616252073!3d59.9663962818863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464171e7ed1e997b%3A0xdea4421d7d285a7b!2sKjels%C3%A5sveien+143%2C+0491+Oslo!5e0!3m2!1sen!2sno!4v1495921189543\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0491', 'Oslo'),
+(7, 'Vulkan 5', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.5981396856337!2d10.74985701625054!3d59.922216481870215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e65a294248f%3A0xf993f57b39780819!2sVulkan+5%2C+0182+Oslo!5e0!3m2!1sen!2sno!4v1495921220233\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0182', 'Oslo'),
+(8, 'Hans Nilsen Hauges gate 44 ', '<<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5766722553115!2d10.776572816251122!3d59.93916638187636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e3c23e45179%3A0x9a1ebfc4259c151!2sHans+Nielsen+Hauges+gate+44%2C+0481+Oslo!5e0!3m2!1sen!2sno!4v1495921247107\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0481', 'Oslo'),
+(9, 'Christian Krohgs gate 32', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9714370368206!2d10.757347216250277!3d59.916021381867935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e60c73e80af%3A0x7ce7048cd01f58c1!2sChr.+Krohgs+gate+32%2C+0186+Oslo!5e0!3m2!1sen!2sno!4v1495921268068\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0186', 'Oslo'),
+(10, 'Maridalsveien 17', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.57838080567!2d10.750078516250507!3d59.922544381870345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e657e339ff9%3A0x32375917ea3f0b9c!2sMaridalsveien+17%2C+0175+Oslo!5e0!3m2!1sen!2sno!4v1495921300275\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0175', 'Oslo'),
+(11, 'Arne Garborgs plass 4', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9391764302281!2d10.744182716250293!3d59.91655678186815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e63136220e7%3A0x824454b79bca0ea9!2sArne+Garborgs+plass+4%2C+0179+Oslo!5e0!3m2!1sen!2sno!4v1495921333892\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0179', 'Oslo'),
+(12, 'Tollbugata 13', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.321942030203!2d10.743268516250094!3d59.91020418186593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e89b2a413d9%3A0x9f357c68b491ca83!2sTollbugata+13%2C+0152+Oslo!5e0!3m2!1sen!2sno!4v1495921355245\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0152', 'Oslo'),
+(13, 'Kirsten Flagstads pl. 1', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.4792504413062!2d10.750406116249955!3d59.90759328186489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e8b0a8fc2e5%3A0x45a5b10a7115ed9f!2sKirsten+Flagstads+Plass+1%2C+0150+Oslo!5e0!3m2!1sen!2sno!4v1495921376488\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', '0150', 'Oslo');
+
 
 
 --
