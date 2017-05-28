@@ -1,0 +1,58 @@
+<div class="container">
+    <div id="login-row" class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <?php
+            if (isset($response)) {
+                echo '<div class="alert alert-success"><strong>' . $response . '</strong></div>';
+            }
+            ?>
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post" id="form-login" action="">
+                    <fieldset>
+                        <legend class="text-center">Logg inn</legend>
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="username">Brukernavn</label>
+                            <div class="col-md-9">
+                                <input id="useranme" name="username" type="text" placeholder="" class="form-control" spellcheck="false" autocomplete="off" autocorrect="off"  value="
+                                <?php
+                                if (isset($_POST['username']))
+                                    echo(htmlspecialchars($_POST['username']));
+                                ?>">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="password">Passord</label>
+                            <div class="col-md-9">
+                                <input id="password" name="password" type="password" placeholder="" required class="form-control" spellcheck="false" autocomplete="off" autocorrect="off" value="<?php
+                                if (isset($_POST['password']))
+                                    echo(htmlspecialchars($_POST['password']));
+                                ?>">
+                            </div>
+                        </div>
+
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-success btn-lg" name="submit">Logg inn</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div id="login-note" class="row">
+                <div class="col-xs-12">
+                    <a href="/password-reminder" class="loginlink">Glemt passord?</a>
+                </div>
+                <div class="col-xs-12">
+                    <div class="h3">Ny bruker? </div>
+                    <a href="#" class="loginlink">For studenter</a> &nbsp; &nbsp;
+                    <a href="#" class="loginlink">For arrangører </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+#------------------------------------------------------------------------------
+# Server root folder .htaccess
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# To disable indexing directory contents. This way, files won't be listed if a
+# user types in a directory path in his browser.
+#------------------------------------------------------------------------------
+Options +FollowSymlinks -Indexes -MultiViews
+
+#------------------------------------------------------------------------------
+# We'll process the .phtml extension in a way that makes it impossible for anyone 
+# to view our templates' source code. .phtml files behave just like .php files.
+#------------------------------------------------------------------------------
+AddType application/x-httpd-php .php .phtml
+
+#------------------------------------------------------------------------------
+# Classic PHP URL: http://wwww.domain.com/index.php?article=article-name&parameter=value
+# Pretty URL: http://wwww.domain.com/article-name/value
+# To get pretty URLs, we'll let PHP handle the URL processing by "disabling" it
+# in Apache and redirect all requests to index.php (where we'll handle URLs manually).
+# Otherwise, Apache would treat "article-name" like a folder name and keep looking 
+# for the "value" subfolder and for an index file in this non-existent directory. 
+# We'll turn the rewrite engine on and add a rewrite rule, where we tell it that we
+# want to redirect everything except certain extensions to index.php.
+# We commented out 'RewriteBase /' because we don't need it on localhost but some 
+# production web servers (when we upload the site to the internet) won't work without it. 
+# When you upload the completed website to a server, try it both ways and see what works.
+# RewriteConds makes it so that no redirection is made when a file or folder exists.
+# We made sure we only redirect when it's not a file URL by listing several of the most 
+# common file extensions. Any other URL will be redirected to the index.
+# Options +FollowSymlinks is required for redirect.
+#------------------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on 
+
+    # Redirect to /public
+    RewriteCond %{REQUEST_URI} !webb/public/ [NC]
+    RewriteRule ^(.*)$ webb/public/$1 
+
+    RewriteCond %{REQUEST_FILENAME} !-f 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME} !\.(pdf|js|ico|gif|jpg|png|css|rar|zip|tar\.gz)$
+    RewriteCond %{REQUEST_URI} !index\.php  [NC]
+    RewriteRule ^(.*)$ webb/public/index.php [L]
+</IfModule>
